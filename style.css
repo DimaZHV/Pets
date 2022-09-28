@@ -75,7 +75,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
 }
 
@@ -94,7 +94,7 @@ main .heading h2 {
 }
 
 main .pets_list {
-  width: 100%;
+  width: 1260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,6 +104,7 @@ main .pets_list {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0px auto;
 }
 
 main .pets_list .pet {
